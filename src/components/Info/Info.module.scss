@@ -1,0 +1,32 @@
+.content {
+    max-width: 1395px;
+    margin: 0 auto;
+}
+
+.cards {
+    margin-top: 40px;
+    display: flex;
+    height: 280px;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.card {
+    border-radius: 48px;
+    background: #FFF;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 335px;
+}
+
+.number {
+    color: #67CA79;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 20px;
+}

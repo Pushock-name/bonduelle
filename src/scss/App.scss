@@ -5,8 +5,10 @@
 body {
   background-color: #EAFAFF;
   color: #292C2A;
-  font-family: Involve;
+  font-family: 'Involve';
   font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .wrapper {
@@ -15,54 +17,37 @@ body {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 1695px;
   margin: 0px auto;
-  padding: 0px 16px;
 }
 
 h1 {
-  color: #FFF;
-  font-size: 80px;
-  font-weight: 500;
-  line-height: normal;
+  font-size: 92px;
+  font-weight: 600;
+  line-height: 100%;
+  /* 92px */
 }
 
 h2 {
-  color: #FFF;
-  font-size: 50px;
-  font-weight: 500;
-  line-height: normal;
-}
-
-h3 {
-  color: #FFF;
-  font-size: 37px;
-  line-height: 120%;
-  /* 48px */
-}
-
-h4 {
-  color: #FFF;
-  font-size: 25px;
-  line-height: 115%;
-  /* 29.9px */
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 100%;
+  /* 92px */
 }
 
 .btn {
-  color: #000;
-  font-size: 20px;
-  background: #FFC700;
-  padding: 16px 30px;
-  border-radius: 10px;
+  color: #292C2A;
+  background: #FFF;
+  padding: 24px;
+  border-radius: 999px;
   display: block;
   transition: all 0.5s ease-in-out;
   text-align: center;
-  width: 255px;
 
   &:hover {
     scale: 1.05;
     background: #FFE793;
-    color: #191E28;
+    color: #292C2A;
   }
 
   &:active {
