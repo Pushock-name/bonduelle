@@ -1,9 +1,13 @@
-import './App.css';
+import './scss/App.scss';
 
 function App() {
   return (
-    <div className="App">
-      Бондюэль
+    <div className="wrapper">
+      <div className='container'>
+        <div>
+          Бондюэль
+        </div>
+      </div>
     </div>
   );
 }

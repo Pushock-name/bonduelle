@@ -1,0 +1,71 @@
+@import 'fonts';
+@import 'libs/normalize';
+
+
+body {
+  background-color: #EAFAFF;
+  color: #292C2A;
+  font-family: Involve;
+  font-size: 20px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0px auto;
+  padding: 0px 16px;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 80px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+h2 {
+  color: #FFF;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+h3 {
+  color: #FFF;
+  font-size: 37px;
+  line-height: 120%;
+  /* 48px */
+}
+
+h4 {
+  color: #FFF;
+  font-size: 25px;
+  line-height: 115%;
+  /* 29.9px */
+}
+
+.btn {
+  color: #000;
+  font-size: 20px;
+  background: #FFC700;
+  padding: 16px 30px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  width: 255px;
+
+  &:hover {
+    scale: 1.05;
+    background: #FFE793;
+    color: #191E28;
+  }
+
+  &:active {
+    scale: 1.1;
+  }
+}
